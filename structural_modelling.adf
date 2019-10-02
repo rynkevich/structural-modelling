@@ -1,0 +1,99 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+
+[Configurations]
+compile=structural_modelling
+
+[Library]
+structural_modelling=.\structural_modelling\structural_modelling.lib
+
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+
+[LocalVhdlSets]
+CompileWithDebug=0
+
+[$LibMap$]
+structural_modelling=.
+Active_lib=
+
+[Groups]
+basic_elements=1
+task_a=1
+task_a\tb=1
+task_b=1
+task_b\tb=1
+task_c=1
+task_c\tb=1
+task_d=1
+task_d\tb=1
+
+[Files]
+basic_elements/and3.vhd=-1
+basic_elements/or3.vhd=-1
+basic_elements/inv.vhd=-1
+basic_elements/or2.vhd=-1
+basic_elements/and2.vhd=-1
+task_a/device.vhd=-1
+task_a/mux4x2.vhd=-1
+task_a/mux2x1.vhd=-1
+task_a\tb/device_tb.vhd=-1
+task_a\tb/device_tb_runtest.do=-1
+task_a\tb/mux4x2_tb.vhd=-1
+task_a\tb/mux4x2_tb_runtest.do=-1
+task_a\tb/mux2x1_tb.vhd=-1
+task_a\tb/mux2x1_tb_runtest.do=-1
+task_b/demux1x4.vhd=-1
+task_b\tb/demux1x4_tb.vhd=-1
+task_b\tb/demux1x4_tb_runtest.do=-1
+task_c/and5.vhd=-1
+task_c\tb/and5_tb.vhd=-1
+task_c\tb/and5_tb_runtest.do=-1
+
+[Files.Data]
+.\src\basic_elements\and3.vhd=VHDL Source Code
+.\src\basic_elements\or3.vhd=VHDL Source Code
+.\src\basic_elements\inv.vhd=VHDL Source Code
+.\src\basic_elements\or2.vhd=VHDL Source Code
+.\src\basic_elements\and2.vhd=VHDL Source Code
+.\src\task_a\device.vhd=VHDL Source Code
+.\src\task_a\mux4x2.vhd=VHDL Source Code
+.\src\task_a\mux2x1.vhd=VHDL Source Code
+.\src\task_a\tb\device_tb.vhd=VHDL Source Code
+.\src\task_a\tb\device_tb_runtest.do=Macro
+.\src\task_a\tb\mux4x2_tb.vhd=VHDL Source Code
+.\src\task_a\tb\mux4x2_tb_runtest.do=Macro
+.\src\task_a\tb\mux2x1_tb.vhd=VHDL Source Code
+.\src\task_a\tb\mux2x1_tb_runtest.do=Macro
+.\src\task_b\demux1x4.vhd=VHDL Source Code
+.\src\task_b\tb\demux1x4_tb.vhd=VHDL Source Code
+.\src\task_b\tb\demux1x4_tb_runtest.do=Macro
+.\src\task_c\and5.vhd=VHDL Source Code
+.\src\task_c\tb\and5_tb.vhd=VHDL Source Code
+.\src\task_c\tb\and5_tb_runtest.do=Macro
+
+[SpecTracer]
+WindowVisible=0
+[HierarchyViewer]
+HierarchyInformation=and5_tb|tb|0 device_tb|tb|0   
+ShowHide=ShowTopLevel
+Selected=
