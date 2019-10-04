@@ -36,6 +36,14 @@ CompileWithDebug=0
 structural_modelling=.
 Active_lib=
 
+[SpecTracer]
+WindowVisible=0
+
+[HierarchyViewer]
+HierarchyInformation=and5_tb|tb|0 full_adder2_tb|tb|0 full_adder_tb|tb|0 half_adder_tb|tb|0 
+ShowHide=ShowTopLevel
+Selected=
+
 [Groups]
 basic_elements=1
 task_a=1
@@ -48,6 +56,7 @@ task_d=1
 task_d\tb=1
 
 [Files]
+basic_elements/xor2.vhd=-1
 basic_elements/and3.vhd=-1
 basic_elements/or3.vhd=-1
 basic_elements/inv.vhd=-1
@@ -68,8 +77,18 @@ task_b\tb/demux1x4_tb_runtest.do=-1
 task_c/and5.vhd=-1
 task_c\tb/and5_tb.vhd=-1
 task_c\tb/and5_tb_runtest.do=-1
+task_d/full_adder2.vhd=-1
+task_d/full_adder.vhd=-1
+task_d/half_adder.vhd=-1
+task_d\tb/full_adder2_tb.vhd=-1
+task_d\tb/full_adder2_tb_runtest.do=-1
+task_d\tb/full_adder_tb.vhd=-1
+task_d\tb/full_adder_tb_runtest.do=-1
+task_d\tb/half_adder_tb.vhd=-1
+task_d\tb/half_adder_tb_runtest.do=-1
 
 [Files.Data]
+.\src\basic_elements\xor2.vhd=VHDL Source Code
 .\src\basic_elements\and3.vhd=VHDL Source Code
 .\src\basic_elements\or3.vhd=VHDL Source Code
 .\src\basic_elements\inv.vhd=VHDL Source Code
@@ -90,10 +109,13 @@ task_c\tb/and5_tb_runtest.do=-1
 .\src\task_c\and5.vhd=VHDL Source Code
 .\src\task_c\tb\and5_tb.vhd=VHDL Source Code
 .\src\task_c\tb\and5_tb_runtest.do=Macro
+.\src\task_d\full_adder2.vhd=VHDL Source Code
+.\src\task_d\full_adder.vhd=VHDL Source Code
+.\src\task_d\half_adder.vhd=VHDL Source Code
+.\src\task_d\tb\full_adder2_tb.vhd=VHDL Source Code
+.\src\task_d\tb\full_adder2_tb_runtest.do=Macro
+.\src\task_d\tb\full_adder_tb.vhd=VHDL Source Code
+.\src\task_d\tb\full_adder_tb_runtest.do=Macro
+.\src\task_d\tb\half_adder_tb.vhd=VHDL Source Code
+.\src\task_d\tb\half_adder_tb_runtest.do=Macro
 
-[SpecTracer]
-WindowVisible=0
-[HierarchyViewer]
-HierarchyInformation=and5_tb|tb|0 device_tb|tb|0   
-ShowHide=ShowTopLevel
-Selected=
